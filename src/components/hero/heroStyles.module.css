@@ -1,0 +1,111 @@
+.container {
+  min-height: 784px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (width <= 800px) {
+    min-height: 1293px;
+    padding-top: 10vh;
+  }
+}
+
+.heroParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  @media (width <= 700px) {
+    flex-direction: column;
+  }
+}
+
+.heroParent img {
+  object-fit: cover;
+  width: 100%;
+
+  @media (width <= 700px) {
+    width: 85vw;
+    aspect-ratio: 1/1;
+  }
+}
+
+.div {
+  display: none;
+
+  @media (width > 1180px) {
+    display: block;
+  }
+
+  @media (width <= 700px) {
+    display: block;
+  }
+}
+
+.heroRightParent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heroRightBottomParent {
+  display: flex;
+  gap: 16px;
+
+  @media (width <= 800px) {
+    flex-direction: column;
+  }
+}
+
+.relativeDiv {
+  position: relative;
+}
+
+.absoluteDiv {
+  height: 156;
+  gap: 5px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  font-weight: 700;
+}
+
+.absoluteDiv h6 {
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: rgba(45, 192, 113, 1);
+}
+
+.absoluteDiv h2 {
+  font-size: 2.5rem;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: rgba(37, 43, 66, 1);
+}
+
+.absoluteDiv h3 {
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: rgba(37, 43, 66, 1);
+}
+
+.absoluteDiv a {
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: rgba(37, 43, 66, 1);
+}
+
+.absoluteDiv a:hover {
+  cursor: pointer;
+  color: rgb(111, 139, 190);
+  text-decoration: unde;
+}

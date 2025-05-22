@@ -1,0 +1,167 @@
+.bandageDiv {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 142px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 700px) {
+    height: 172px;
+  }
+}
+
+.bandage {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.bandage aside {
+  display: flex;
+  gap: 20px;
+}
+
+.bandage aside img:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.bandage h3 {
+  font-weight: 700;
+  color: rgba(37, 43, 66, 1);
+  font-size: 1.5rem;
+}
+
+.bandageParentDiv {
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.footerLinks {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 15vh auto;
+  width: 80%;
+
+  @media (max-width: 1183px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4rem;
+  }
+
+  @media (max-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+  }
+
+  @media (max-width: 560px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4rem;
+  }
+}
+
+.footerLinks aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.footerLinks aside h5 {
+  letter-spacing: 0.1px;
+  color: rgba(37, 43, 66, 1);
+  margin-bottom: 10px;
+}
+
+.footerLinks aside a {
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.footerLinks aside a:hover {
+  color: rgba(35, 166, 240, 1);
+  text-decoration: underline;
+}
+
+.footerInput div {
+  max-width: 321px;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 5px;
+  display: flex;
+  height: 58px;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.footerInput div input {
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.footerInput div input:focus {
+  outline: none;
+}
+
+.footerInput div input::placeholder {
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.footerInput div button {
+  background: rgba(35, 166, 240, 1);
+  width: 117px;
+  height: 58px;
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+}
+
+.footerInput div button:hover {
+  cursor: pointer;
+  background-color: rgb(15, 137, 207);
+}
+
+.footerInput p {
+  color: rgba(115, 115, 115, 1);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 0.75rem;
+}
+
+.footerText {
+  height: 74px;
+  background-color: rgba(230, 230, 230, 1);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 0.875rem;
+  color: rgba(115, 115, 115, 1);
+}
+
+.footerText h6 {
+  margin: 0 auto;
+  width: 80%;
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}

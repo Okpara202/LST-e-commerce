@@ -1,0 +1,242 @@
+.feature {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.featureAside1 {
+  min-height: 632px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+
+  @media (max-width: 930px) {
+    height: 1214px;
+  }
+}
+
+.featureProductsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgba(115, 115, 115, 1);
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
+.featureProductsTitle h4 {
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-align: center;
+}
+
+.featureProductsTitle h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(37, 43, 66, 1);
+}
+
+.featureProductsTitle p {
+  font-size: 0.875rem;
+  line-height: 20px;
+  text-align: center;
+  @media (max-width: 600px) {
+    width: 60%;
+  }
+}
+
+.featureAnalysis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  @media (max-width: 930px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.featureAnalysis img {
+  aspect-ratio: 1/1;
+  height: 72px;
+}
+
+.featureAnalysis div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.featureAnalysis div h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(37, 43, 66, 1);
+}
+
+.featureAnalysis div p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(115, 115, 115, 1);
+}
+
+.featureAside2 {
+  min-height: 994px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+
+  @media (max-width: 1080px) {
+    min-height: 2200px;
+  }
+}
+
+.featureProductsTitle h6 {
+  color: rgba(35, 166, 240, 1);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.featureProductsTitle h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(37, 43, 66, 1);
+  margin: 0 auto;
+
+  @media (width <= 600px) {
+    width: 90%;
+  }
+}
+
+.FeaturedPost {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+.featuredPostParentDiv {
+  height: 606px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  transition: 1.5s;
+}
+
+.featuredPostParentDivAside1 {
+  height: 300px;
+  position: relative;
+}
+
+.featuredPostParentDiv:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+
+.featuredPostParentDivAside1 p {
+  background: rgba(231, 64, 64, 1);
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.featuredPostParentDivAside2 {
+  height: 306px;
+  gap: 10px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featuredSpan {
+  display: flex;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.featuredSpan span:hover {
+  cursor: pointer;
+  color: rgba(35, 166, 240, 1);
+}
+
+.featuredSpan span:nth-child(1) {
+  color: rgba(142, 194, 242, 1);
+}
+
+.featuredPostParentDivAside2 h4 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: rgba(37, 43, 66, 1);
+}
+
+.featuredPostParentDivAside2 p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  align-items: center;
+}
+
+.clock p {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.featuredPostParentDivAside2 a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: rgba(115, 115, 115, 1);
+}
+
+.featuredPostParentDivAside2 a:hover {
+  color: rgba(35, 166, 240, 1);
+  cursor: pointer;
+}
