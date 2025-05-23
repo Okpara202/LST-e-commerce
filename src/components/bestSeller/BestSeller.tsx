@@ -19,7 +19,7 @@ function BestSeller() {
     <div className={styles.container}>
       <section className={styles.section}>
         <div className={styles.intro}>
-          {/* Intro section */}
+          {/* Intro/Title section */}
           <h4>Featured Products</h4>
           <h3>
             BESTSELLER <span>PRODUCTS</span>

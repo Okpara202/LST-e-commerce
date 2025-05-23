@@ -8,6 +8,7 @@ function Feature() {
         {/* Featured Products */}
 
         <div className={styles.featureProductsTitle}>
+          {/* Intro/title */}
           <h4>Featured Products</h4>
           <h3>THE BEST SERVICES</h3>
           <p>Problems trying to resolve the conflict between </p>

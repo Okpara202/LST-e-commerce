@@ -9,10 +9,10 @@ function Header() {
   const handleToggleMiniNav = () => {
     setToggleMiniNav((prevState) => !prevState);
   };
+
   return (
     <header>
-      {/* Mini nav menu */}
-
+      {/* DropDown Mobile menu */}
       <nav
         className={
           toggleMiniNav ? headerStyle.mobileMenu : headerStyle.initialMobileMenu
@@ -62,7 +62,8 @@ function Header() {
           </div>
         </div>
       </section>
-      {/* Header Nav */}
+
+      {/* Main Header Nav */}
       <section className={headerStyle.headerNav}>
         <nav>
           <h1>Bandage</h1>
@@ -98,7 +99,7 @@ function Header() {
           <img src="/img/favorite.png" />
         </div>
 
-        {/* Mini screen nav */}
+        {/* Mobile screen nav buttons */}
         <aside className={headerStyle.miniIcon}>
           <Link to="#">
             <img src="img/miniSearch.png" alt="search icon" />
