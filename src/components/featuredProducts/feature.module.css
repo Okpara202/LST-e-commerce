@@ -54,10 +54,11 @@
 .featureAnalysis {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 50px;
 
   @media (max-width: 930px) {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 100px;
   }
 }
 
